@@ -1,3 +1,12 @@
+@font-face {
+    font-family: jetBrainsMono;
+    src: url(../font/JetBrainsMono-Regular.woff2);
+}
+
+body {
+    font-family: jetBrainsMono;
+}
+
 #logo,img{
     width: 400px;
     margin-top: -150px;
