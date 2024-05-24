@@ -8,22 +8,29 @@ body {
 }
 
 #logo{
-    width: 200px;
+    margin-top: 1%;
+    width: 20vw;
     display: block;
 }
 .menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    height: 100px;
     font-size: large;
-    padding-right: 64px;
+
 }
 .bmr{
     background-color: rgb(135,0,218);
     padding: 3px 10px;
     border-radius: 10px;
     color: white;
+    margin-left: 10%;
+}
+#fooldalbanner{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 30vh;
 }
 
 @media (max-width: 768px) {
@@ -44,10 +51,11 @@ body {
 
 @media (max-width: 480px) {
     #logo {
-        width: 70vw;
+        width: 30vh;
     }
     .menu {
         font-size: 100%;
+        
     }
     .bmr {
         padding: 10px 20px;
