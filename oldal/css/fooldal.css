@@ -2,3 +2,9 @@ body{
     display: block;
     margin: 0 auto;
 }
+.banner img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4%;
+}
