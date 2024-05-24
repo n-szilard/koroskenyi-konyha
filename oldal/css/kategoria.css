@@ -1,0 +1,20 @@
+.banner {
+    margin-top: 32px;
+}
+
+.bannerKep {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.kartya {
+    background-color: gray;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.kajaAdatok {
+    display: flex;
+    justify-content: space-between;
+}
