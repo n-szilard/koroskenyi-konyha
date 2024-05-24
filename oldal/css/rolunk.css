@@ -3,3 +3,12 @@
     margin: 0 auto;
     display: block;
 }
+h1{
+    margin: 4% auto;
+    display: block;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
