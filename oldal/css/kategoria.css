@@ -9,12 +9,49 @@
 }
 
 .kartya {
-    background-color: gray;
-    border-radius: 16px;
+    background-color: #808080;
+    border-radius: 32px;
     padding: 16px;
+    width: 25%;
 }
 
 .kajaAdatok {
     display: flex;
     justify-content: space-between;
+}
+
+.tartalom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 16px;
+    padding-top: 64px;
+}
+
+.etelCim {
+    font-size: larger;
+    text-align: center;
+}
+
+.etelKep {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.kartyaKep {
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .tartalom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kartya {
+        width: 90%;
+    }
 }
