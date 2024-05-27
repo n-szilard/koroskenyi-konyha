@@ -5,6 +5,8 @@
 
 body {
     font-family: jetBrainsMono;
+    display: block;
+    margin: 0;
 }
 
 #logo{
@@ -19,6 +21,13 @@ body {
     font-size: large;
 
 }
+a:visited,a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    display: none;
+}
 .bmr{
     background-color: rgb(135,0,218);
     padding: 3px 10px;
@@ -32,17 +41,21 @@ body {
     width: 70%;
     height: 30vh;
 }
-
 @media (max-width: 768px) {
     #logo {
         width: 50vw;
         margin-top: 0;
+        margin-bottom: 3%;
     }
     .menu {
         flex-direction: column;
     }
     .menupont, .bmr {
         margin: 10px 0;
+    }
+    hr{
+        display: block;
+        width: 90%;
     }
     .bmr {
         padding: 5px 15px;

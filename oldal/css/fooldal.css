@@ -3,8 +3,47 @@ body{
     margin: 0 auto;
 }
 .banner img{
-    width: 70%;
+    width: 75vw;
     display: block;
     margin: 0 auto;
     margin-top: 4%;
+}
+.oszlopcontainer{
+    width: 75vw;
+    display: block;
+    margin: 0 auto;
+}
+.bal{
+    width: 20%;
+}
+.jobb{
+    width: 70%;
+}
+#tortenetunk{
+    border-bottom: 1px solid black;
+}
+@media (max-width: 768px){
+    .banner img{
+        width: 90vw;
+    }
+    .oszlopcontainer{
+        width: 90vw;
+    }
+    .bal{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+}
+@media (max-width: 480px){
+    .banner img{
+        width: 90vw;
+    }
+    .oszlopcontainer{
+        width: 90vw;
+    }
+    .bal{
+        display: flex;
+    }
 }
