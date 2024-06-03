@@ -11,4 +11,73 @@ h1{
 
 .container{
     display: flex;
+    gap:5%;
+
+}
+
+.bal{
+    width: 45%;
+    margin-left: 1%;
+    
+    text-align: center;
+    padding: 5%;
+}
+
+.jobb{
+    width: 55%;
+    background-color: rgb(218, 217, 217);
+    margin-right: 1%;
+
+}
+
+.pfp{
+    border-radius: 200px;
+    width: 60%;
+    border:black 1px solid;
+}
+
+.kiskontener{
+    display: flex;
+    padding: 5%;
+}
+.balkep{
+    width: 50%;
+}
+.jobbszoveg{
+    width: 70%;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .jobb{
+        width: 80%;
+    }
+    .bal{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .jobb{
+        width: 95%;
+
+    }
+    .bal{
+        width: 95%;
+    }
+    .kiskontener{
+        flex-direction: column;
+        align-items: center;
+        word-wrap:break-word;
+    }
+    .jobbszoveg{
+        text-align: center;
+    }
+    .balkep{
+        text-align: center;
+    }
 }
