@@ -3,25 +3,32 @@ body{
     margin: 0 auto;
 }
 .banner img{
-    width: 75vw;
+    width: 85%;
     display: block;
     margin: 0 auto;
     margin-top: 4%;
 }
 .oszlopcontainer{
-    width: 75vw;
-    display: block;
+    width: 85%;
+    display: flex;
     margin: 0 auto;
 }
 .bal{
-    width: 30%;
+    width: 16%;
+    font-size: 115%;
 }
 .jobb img{
-    width: 100%;
+    width: 21vw;
+    height: 70%;
+}
+.jobb{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .jobb-item{
-    border-radius: 32px;
-    width: 25%;
+    width: 29%;
 }
 footer{
     display: flex;
@@ -40,14 +47,25 @@ footer{
         width: 90vw;
     }
     .oszlopcontainer{
+        display: flex;
+        flex-direction: column;
         width: 90vw;
     }
     .bal{
         display: flex;
+        flex-direction: row;
         width: 100%;
         justify-content: space-between;
     }
-    
+    .jobb-item{
+        width: 50%;
+    }
+    .jobb{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
 @media (max-width: 480px){
     .banner img{
