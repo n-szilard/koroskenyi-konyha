@@ -18,7 +18,7 @@ h1{
 .bal{
     width: 45%;
     margin-left: 1%;
-    font-size: 1.5vw;
+    
     text-align: center;
     padding: 5%;
 }
@@ -33,6 +33,7 @@ h1{
 .pfp{
     border-radius: 200px;
     width: 60%;
+    border:black 1px solid;
 }
 
 .kiskontener{
@@ -44,5 +45,39 @@ h1{
 }
 .jobbszoveg{
     width: 70%;
-    font-size: 1.6vw;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .jobb{
+        width: 80%;
+    }
+    .bal{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .jobb{
+        width: 95%;
+
+    }
+    .bal{
+        width: 95%;
+    }
+    .kiskontener{
+        flex-direction: column;
+        align-items: center;
+        word-wrap:break-word;
+    }
+    .jobbszoveg{
+        text-align: center;
+    }
+    .balkep{
+        text-align: center;
+    }
 }
