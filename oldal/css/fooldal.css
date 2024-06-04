@@ -3,33 +3,41 @@ body{
     margin: 0 auto;
 }
 .banner img{
-    width: 75vw;
+    width: 85%;
     display: block;
     margin: 0 auto;
     margin-top: 4%;
 }
 .oszlopcontainer{
-    width: 75vw;
-    display: block;
+    width: 85%;
+    display: flex;
     margin: 0 auto;
 }
 .bal{
-    width: 30%;
+    width: 16%;
+    font-size: 115%;
+    margin-right: 2%;
 }
 .jobb img{
-    width: 100%;
+    width: 20.5vw;
+    height: 70%;
+}
+.jobb{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .jobb-item{
-    border-radius: 32px;
-    width: 25%;
+    width: 29%;
 }
 footer{
+    width: 40%;
+    margin: 0 auto;
     display: flex;
-    text-align: center;
-    padding-bottom: 1%;
     justify-content: space-between;
-    margin-left: 35%;
-    margin-right: 35%;
+    align-items: center;
+    padding-bottom: 1%;
 }
 #tortenetunk{
     border-bottom: 1px solid black;
@@ -40,14 +48,33 @@ footer{
         width: 90vw;
     }
     .oszlopcontainer{
+        display: flex;
+        flex-direction: column;
         width: 90vw;
+        justify-content: space-between;
     }
     .bal{
         display: flex;
+        flex-direction: row;
         width: 100%;
         justify-content: space-between;
     }
-    
+    .jobb-item{
+        width: 40%;
+        justify-content: space-between;
+
+    }
+    .jobb{
+        width:100%;
+    }
+    .jobb img{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        margin: 0;
+        justify-content: space-around;
+    }
 }
 @media (max-width: 480px){
     .banner img{
@@ -58,5 +85,22 @@ footer{
     }
     .bal{
         display: flex;
+    }
+    .jobb-item{
+        width:80%;
+    }
+    .jobb img{
+        width: 100%;
+    }
+    .jobb{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer{
+        flex-direction: column;
     }
 }
