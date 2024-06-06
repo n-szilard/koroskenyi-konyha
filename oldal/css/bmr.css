@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 64px;
+    font-size: 2.5rem;
+}
+
+.tartalom {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 40%;
+}
+
+.eredmeny {
+    width: 40%;
+}
+
+.sor {
+    display: flex;
+}
+
+.bal {
+    width: 30%;
+}
+
+p {
+    display: inline;
+}
