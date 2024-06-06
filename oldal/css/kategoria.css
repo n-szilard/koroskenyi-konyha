@@ -27,6 +27,8 @@
     row-gap: 16px;
     padding-top: 64px;
     margin-bottom: 32px;
+    width: 90%;
+    margin: auto;
 }
 
 .etelCim {
