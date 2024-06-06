@@ -41,6 +41,15 @@ hr{
     width: 70%;
     height: 30vh;
 }
+button {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    margin-top: 5%;
+    height: 70%;
+}
 @media (max-width: 768px) {
     #logo {
         width: 50vw;
