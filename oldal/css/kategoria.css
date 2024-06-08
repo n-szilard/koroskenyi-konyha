@@ -1,6 +1,12 @@
 .banner {
     margin-top: 32px;
 }
+.kartyaRecept {
+    background-color: #f0f0f0;
+    border-radius: 32px;
+    padding: 16px;
+    text-align: center;
+}
 
 .bannerKep {
     display: block;
@@ -47,7 +53,12 @@
     margin: 0 auto;
     margin-bottom: 16px;
 }
-
+.receptBtn{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 3%;
+    height: 5%;
+}
 @media screen and (max-width: 1000px) {
     .kartya {
         width: 42%;

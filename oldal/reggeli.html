@@ -12,139 +12,160 @@
 <body>
     <div class="menu">
         <a href="index.html"><img id="logo" src="/logo.png" alt="Logó"></a>
-        <a href="reggeli.html"><div class="menupont">REGGELI</div></a><hr>
-        <a href="ebed.html"><div class="menupont">EBÉD</div></a><hr>
-        <a href="vacsora.html"><div class="menupont">VACSORA</div></a><hr>
-        <a href="draga.html"><div class="menupont">DRÁGA</div></a><hr>
-        <a href="dietas.html"><div class="menupont">DIÉTÁS</div></a><hr>
-        <a href="desszert.html"><div class="menupont">DESSZERT</div></a><hr>
-        <a href="rolunk.html"><div class="menupont">RÓLUNK</div></a>
-        <div class="bmr">BMR</div>
+        <a href="reggeli.html">
+            <div class="menupont">REGGELI</div>
+        </a>
+        <hr>
+        <a href="ebed.html">
+            <div class="menupont">EBÉD</div>
+        </a>
+        <hr>
+        <a href="vacsora.html">
+            <div class="menupont">VACSORA</div>
+        </a>
+        <hr>
+        <a href="draga.html">
+            <div class="menupont">DRÁGA</div>
+        </a>
+        <hr>
+        <a href="dietas.html">
+            <div class="menupont">DIÉTÁS</div>
+        </a>
+        <hr>
+        <a href="desszert.html">
+            <div class="menupont">DESSZERT</div>
+        </a>
+        <hr>
+        <a href="rolunk.html">
+            <div class="menupont">RÓLUNK</div>
+        </a>
+        <a href="./bmr.html"><div class="bmr">BMR</div></a>
     </div>
     <div class="container">
         <div class="banner">
             <img src="./kepek/bannerek/reggeli_banner.png" alt="" class="bannerKep">
         </div>
         <div class="tartalom">
-            <div class="container">
-                
-                <div class="card">
-                  <div id="back" class="cardBack"></div>
-                  <div id="front" class="cardFront"><div class="kartya">
-                    <div class="kartyaKep">
-                        <img src="./kepek/etelek/reggeli/bruschetta.jpg" alt="Bruschetta" class="etelKep">
-                        
-                    </div>
-                    <div class="etelCim">
-                        <a href="">Bruschetta</a>
-                    </div>
-                    <div class="kajaAdatok">
-                        <p>120 perc</p>
-                        <button type="button" id="flip-btn">RECEPT</button>
-                        <p>Könnyű</p>
-                    </div>
-                </div></div>
+            <div class="kartya" id="kartya1">
+                <div class="kartyaKep">
+                    <img src="./kepek/etelek/reggeli/bruschetta.jpg" alt="Bruschetta" class="etelKep">
                 </div>
-              </div>
-            <div class="kartya">
+                <div class="etelCim">Bruschetta</div>
+                <div class="kajaAdatok">
+                    
+                    <p>Főzés: 10 perc</p>
+                    <button class="receptBtn" onclick="showRecipe('kartya1')">Recept</button>
+                    <p>Könnyű</p>
+                </div>
+            </div>
+            
+            <div class="kartya" id="kartya2">
                 <div class="kartyaKep">
                     <img src="./kepek/etelek/reggeli/rantotta.jpg" alt="Rántotta" class="etelKep">
                 </div>
-                <div class="etelCim">
-                    Rántotta
-                </div>
+                <div class="etelCim">Rántotta</div>
                 <div class="kajaAdatok">
-                    <p>120 perc</p>
+                    
+                    <p>Főzés: 10 perc</p>
+                    <button class="receptBtn" onclick="showRecipe('kartya2')">Recept</button>
                     <p>Könnyű</p>
                 </div>
             </div>
-            <div class="kartya">
+            
+            <div class="kartya" id="kartya3">
                 <div class="kartyaKep">
                     <img src="./kepek/etelek/reggeli/angolreggeli.jpg" alt="Angol reggeli" class="etelKep">
                 </div>
-                <div class="etelCim">
-                    Angol reggeli
-                </div>
+                <div class="etelCim">Angol reggeli</div>
                 <div class="kajaAdatok">
-                    <p>120 perc</p>
+                    
+                    <p>Főzés: 20 perc</p>
+                    <button class="receptBtn" onclick="showRecipe('kartya3')">Recept</button>
                     <p>Könnyű</p>
                 </div>
             </div>
-            <div class="kartya">
+            
+            <div class="kartya" id="kartya4">
                 <div class="kartyaKep">
-                    <img src="./kepek/etelek/reggeli/tortillakosar.jpg" alt="Angol reggeli" class="etelKep">
+                    <img src="./kepek/etelek/reggeli/tortillakosar.jpg" alt="Sonkás tojásos tortillakosár" class="etelKep">
                 </div>
-                <div class="etelCim">
-                    Sonkás tojásos tortillakosár
-                </div>
+                <div class="etelCim">Sonkás tojásos tortillakosár</div>
                 <div class="kajaAdatok">
-                    <p>120 perc</p>
+                    
+                    <p>Főzés: 20 perc</p>
+                    <button class="receptBtn" onclick="showRecipe('kartya4')">Recept</button>
                     <p>Könnyű</p>
                 </div>
             </div>
-            <div class="kartya">
+            
+            <div class="kartya" id="kartya5">
                 <div class="kartyaKep">
-                    <img src="./kepek/etelek/reggeli/zabkasa.jpg" alt="Angol reggeli" class="etelKep">
+                    <img src="./kepek/etelek/reggeli/zabkasa.jpg" alt="Zabkása" class="etelKep">
                 </div>
-                <div class="etelCim">
-                    Zabkása
-                </div>
+                <div class="etelCim">Zabkása</div>
                 <div class="kajaAdatok">
-                    <p>120 perc</p>
+                    
+                    <p>Főzés: 10 perc</p>
+                    <button class="receptBtn" onclick="showRecipe('kartya5')">Recept</button>
                     <p>Könnyű</p>
                 </div>
             </div>
-            <div class="kartya">
+            
+            <div class="kartya" id="kartya6">
                 <div class="kartyaKep">
-                    <img src="./kepek/etelek/reggeli/omlett.png" alt="Angol reggeli" class="etelKep">
+                    <img src="./kepek/etelek/reggeli/omlett.png" alt="Klasszikus omlett" class="etelKep">
                 </div>
-                <div class="etelCim">
-                    Klasszikus omlett
-                </div>
+                <div class="etelCim">Klasszikus omlett</div>
                 <div class="kajaAdatok">
-                    <p>120 perc</p>
+                    
+                    <p>Főzés: 10 perc</p>
+                    <button class="receptBtn" onclick="showRecipe('kartya6')">Recept</button>
                     <p>Könnyű</p>
                 </div>
             </div>
-            <div class="kartya">
+            
+            <div class="kartya" id="kartya7">
                 <div class="kartyaKep">
-                    <img src="./kepek/etelek/reggeli/palacsinta.jpg" alt="Angol reggeli" class="etelKep">
+                    <img src="./kepek/etelek/reggeli/palacsinta.jpg" alt="Amerikai palacsinta" class="etelKep">
                 </div>
-                <div class="etelCim">
-                    Amerikai palacsinta
-                </div>
+                <div class="etelCim">Amerikai palacsinta</div>
                 <div class="kajaAdatok">
-                    <p>120 perc</p>
+                    
+                    <p>Főzés: 15 perc</p>
+                    <button class="receptBtn" onclick="showRecipe('kartya7')">Recept</button>
                     <p>Könnyű</p>
                 </div>
             </div>
-            <div class="kartya">
+            
+            <div class="kartya" id="kartya8">
                 <div class="kartyaKep">
-                    <img src="./kepek/etelek/reggeli/melegszendvics.jpg" alt="Angol reggeli" class="etelKep">
+                    <img src="./kepek/etelek/reggeli/melegszendvics.jpg" alt="Sajtos rukkolás melegszendvics" class="etelKep">
                 </div>
-                <div class="etelCim">
-                    Sajtos rukkolás melegszendvics
-                </div>
+                <div class="etelCim">Sajtos rukkolás melegszendvics</div>
                 <div class="kajaAdatok">
-                    <p>120 perc</p>
+                    
+                    <p>Főzés: 10 perc</p>
+                    <button class="receptBtn" onclick="showRecipe('kartya8')">Recept</button>
                     <p>Könnyű</p>
                 </div>
             </div>
-            <div class="kartya">
+            
+            <div class="kartya" id="kartya9">
                 <div class="kartyaKep">
-                    <img src="./kepek/etelek/reggeli/bundaskenyer.jpg" alt="Angol reggeli" class="etelKep">
+                    <img src="./kepek/etelek/reggeli/bundaskenyer.jpg" alt="Klasszikus bundáskenyér" class="etelKep">
                 </div>
-                <div class="etelCim">
-                    Klasszikus bundáskenyér
-                </div>
+                <div class="etelCim">Klasszikus bundáskenyér</div>
                 <div class="kajaAdatok">
-                    <p>120 perc</p>
+                    
+                    <p>Főzés: 15 perc</p>
+                    <button class="receptBtn" onclick="showRecipe('kartya9')">Recept</button>
                     <p>Könnyű</p>
                 </div>
             </div>
+            
         </div>
     </div>
-    <script src="src/index.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
